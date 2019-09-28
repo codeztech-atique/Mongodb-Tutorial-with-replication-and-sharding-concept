@@ -1,0 +1,107 @@
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] 
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] ** WARNING: Access control is not enabled for the database.
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] **          Read and write access to data and configuration is unrestricted.
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] 
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] ** WARNING: This server is bound to localhost.
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] **          Remote systems will be unable to connect to this server. 
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] **          Start the server with --bind_ip <address> to specify which IP 
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] **          addresses it should serve responses from, or with --bind_ip_all to
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] **          bind to all interfaces. If this behavior is desired, start the
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2019-09-25T16:54:21.756+0530 I CONTROL  [main] 
+2019-09-25T16:54:21.757+0530 I SHARDING [mongosMain] mongos version v4.0.3
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] allocator: system
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] modules: none
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] build environment:
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain]     distarch: x86_64
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain]     target_arch: x86_64
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] db version v4.0.3
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] allocator: system
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] modules: none
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] build environment:
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain]     distarch: x86_64
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain]     target_arch: x86_64
+2019-09-25T16:54:21.757+0530 I CONTROL  [mongosMain] options: { net: { port: 21010 }, sharding: { configDB: "conf/localhost:57040,localhost:57041,localhost:57042" }, systemLog: { destination: "file", path: "mongos-1.log" } }
+2019-09-25T16:54:21.760+0530 I NETWORK  [mongosMain] Starting new replica set monitor for conf/localhost:57040,localhost:57041,localhost:57042
+2019-09-25T16:54:21.760+0530 I SHARDING [thread1] creating distributed lock ping thread for process ShailendraMishra-anmepls-MacBook-Pro.local:21010:1569410661:7020705488602080152 (sleeping for 30000ms)
+2019-09-25T16:54:21.763+0530 I NETWORK  [shard registry reload] Successfully connected to localhost:57040 (1 connections now open to localhost:57040 with a 5 second timeout)
+2019-09-25T16:54:21.764+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:57041 (1 connections now open to localhost:57041 with a 5 second timeout)
+2019-09-25T16:54:21.764+0530 I NETWORK  [monitoring keys for HMAC] Successfully connected to localhost:57042 (1 connections now open to localhost:57042 with a 5 second timeout)
+2019-09-25T16:54:21.764+0530 I ASIO     [ShardRegistry] Connecting to localhost:57042
+2019-09-25T16:54:21.764+0530 I ASIO     [ShardRegistry] Connecting to localhost:57042
+2019-09-25T16:54:21.764+0530 I ASIO     [ShardRegistry] Connecting to localhost:57040
+2019-09-25T16:54:21.764+0530 I ASIO     [ShardRegistry] Connecting to localhost:57040
+2019-09-25T16:54:21.797+0530 W SHARDING [replSetDistLockPinger] pinging failed for distributed lock pinger :: caused by :: LockStateChangeFailed: findAndModify query predicate didn't match any lock document
+2019-09-25T16:54:23.773+0530 I FTDC     [mongosMain] Initializing full-time diagnostic data capture with directory '/Users/Atique/Desktop/Projects/myblog/Youtube/MongoDb/CreateReplicaSet/mongos-1.diagnostic.data'
+2019-09-25T16:54:23.774+0530 I NETWORK  [mongosMain] waiting for connections on port 21010
+2019-09-25T16:54:23.774+0530 I SH_REFR  [ConfigServerCatalogCacheLoader-0] Refresh for database config took 0 ms and found { _id: "config", primary: "config", partitioned: true }
+2019-09-25T16:54:23.775+0530 I ASIO     [ShardRegistry] Connecting to localhost:57041
+2019-09-25T16:54:23.778+0530 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Collection config.system.sessions is not sharded.
+2019-09-25T16:55:21.772+0530 I ASIO     [ShardRegistry] Ending idle connection to host localhost:57042 because the pool meets constraints; 1 connections to that host remain open
+2019-09-25T16:55:21.778+0530 I ASIO     [ShardRegistry] Ending idle connection to host localhost:57040 because the pool meets constraints; 1 connections to that host remain open
+2019-09-25T16:55:51.083+0530 I NETWORK  [listener] connection accepted from 127.0.0.1:56588 #9 (1 connection now open)
+2019-09-25T16:55:51.088+0530 I NETWORK  [conn9] received client metadata from 127.0.0.1:56588 conn9: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.3" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "18.7.0" } }
+2019-09-25T16:57:09.847+0530 I NETWORK  [conn9] Starting new replica set monitor for shard1/localhost:27017,localhost:27018,localhost:27019
+2019-09-25T16:57:09.854+0530 I COMMAND  [conn9] command admin.shard1/localhost:27017 appName: "MongoDB Shell" command: addShard { addshard: "shard1/localhost:27017", lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569410744, 1), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:186 protocol:op_msg 530ms
+2019-09-25T16:57:09.855+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:27019 (1 connections now open to localhost:27019 with a 5 second timeout)
+2019-09-25T16:57:09.857+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:27017 (1 connections now open to localhost:27017 with a 5 second timeout)
+2019-09-25T16:57:09.859+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:27018 (1 connections now open to localhost:27018 with a 5 second timeout)
+2019-09-25T16:57:17.705+0530 I NETWORK  [conn9] Starting new replica set monitor for shard2/localhost:37017,localhost:37018,localhost:37019
+2019-09-25T16:57:17.715+0530 I COMMAND  [conn9] command admin.shard2/localhost:37017 appName: "MongoDB Shell" command: addShard { addshard: "shard2/localhost:37017", lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569410829, 3), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:186 protocol:op_msg 251ms
+2019-09-25T16:57:17.725+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:37019 (1 connections now open to localhost:37019 with a 5 second timeout)
+2019-09-25T16:57:17.728+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:37017 (1 connections now open to localhost:37017 with a 5 second timeout)
+2019-09-25T16:57:17.730+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:37018 (1 connections now open to localhost:37018 with a 5 second timeout)
+2019-09-25T16:57:23.254+0530 I NETWORK  [conn9] Starting new replica set monitor for shard3/localhost:47017,localhost:47018,localhost:47019
+2019-09-25T16:57:23.254+0530 I COMMAND  [conn9] command admin.shard3/localhost:47017 appName: "MongoDB Shell" command: addShard { addshard: "shard3/localhost:47017", lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569410837, 2), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:186 protocol:op_msg 301ms
+2019-09-25T16:57:23.256+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:47017 (1 connections now open to localhost:47017 with a 5 second timeout)
+2019-09-25T16:57:23.257+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:47019 (1 connections now open to localhost:47019 with a 5 second timeout)
+2019-09-25T16:57:23.259+0530 I NETWORK  [ReplicaSetMonitor-TaskExecutor] Successfully connected to localhost:47018 (1 connections now open to localhost:47018 with a 5 second timeout)
+2019-09-25T16:58:14.610+0530 I COMMAND  [conn9] command school appName: "MongoDB Shell" command: enableSharding { enableSharding: "school", lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569410843, 2), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:163 protocol:op_msg 316ms
+2019-09-25T16:58:39.333+0530 I COMMAND  [conn9] command school.students appName: "MongoDB Shell" command: shardCollection { shardCollection: "school.students", key: { student_id: 1.0 }, lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569410894, 5), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:280 protocol:op_msg 116ms
+2019-09-25T16:59:23.794+0530 I SH_REFR  [ConfigServerCatalogCacheLoader-1] Refresh for collection config.system.sessions took 11 ms and found the collection is not sharded
+2019-09-25T16:59:23.805+0530 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Collection config.system.sessions is not sharded.
+2019-09-25T17:01:34.245+0530 I SH_REFR  [ConfigServerCatalogCacheLoader-2] Refresh for database school took 0 ms and found { _id: "school", primary: "shard2", partitioned: true, version: { uuid: UUID("0124c7d7-0fcd-4ae5-9ba6-acadb775253c"), lastMod: 1 } }
+2019-09-25T17:01:34.246+0530 I ASIO     [TaskExecutorPool-0] Connecting to localhost:37019
+2019-09-25T17:02:02.909+0530 I COMMAND  [conn9] command school.students appName: "MongoDB Shell" command: shardCollection { shardCollection: "school.students", key: { student_id: 1.0 }, lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569411095, 1), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:280 protocol:op_msg 112ms
+2019-09-25T17:03:47.827+0530 I COMMAND  [conn9] command school.students appName: "MongoDB Shell" command: shardCollection { shardCollection: "school.students", key: { student_id: 1.0 }, lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569411216, 1), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:280 protocol:op_msg 113ms
+2019-09-25T17:04:23.793+0530 I SH_REFR  [ConfigServerCatalogCacheLoader-3] Refresh for collection config.system.sessions took 0 ms and found the collection is not sharded
+2019-09-25T17:04:23.802+0530 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Collection config.system.sessions is not sharded.
+2019-09-25T17:05:08.476+0530 I COMMAND  [conn9] command school.students appName: "MongoDB Shell" command: shardCollection { shardCollection: "school.students", key: { student_id: 1.0 }, lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569411227, 4), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:280 protocol:op_msg 114ms
+2019-09-25T17:06:42.565+0530 I ASIO     [TaskExecutorPool-0] Dropping all pooled connections to localhost:37019 due to NetworkInterfaceExceededTimeLimit: Connection pool has been idle for longer than the host timeout
+2019-09-25T17:07:57.614+0530 I COMMAND  [conn9] command school.students appName: "MongoDB Shell" command: shardCollection { shardCollection: "school.students", key: { student_id: 1.0 }, lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569411308, 4), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:280 protocol:op_msg 113ms
+2019-09-25T17:08:40.790+0530 I COMMAND  [conn9] command school.students appName: "MongoDB Shell" command: shardCollection { shardCollection: "school.students", key: { student_id: 1.0 }, lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569411517, 1), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:280 protocol:op_msg 114ms
+2019-09-25T17:09:23.802+0530 I SH_REFR  [ConfigServerCatalogCacheLoader-4] Refresh for collection config.system.sessions took 1 ms and found the collection is not sharded
+2019-09-25T17:09:23.811+0530 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Collection config.system.sessions is not sharded.
+2019-09-25T17:10:03.975+0530 I ASIO     [TaskExecutorPool-0] Connecting to localhost:57040
+2019-09-25T17:11:09.340+0530 I ASIO     [TaskExecutorPool-0] Connecting to localhost:37019
+2019-09-25T17:11:22.633+0530 I ASIO     [ShardRegistry] Connecting to localhost:27017
+2019-09-25T17:11:22.643+0530 I ASIO     [ShardRegistry] Connecting to localhost:37019
+2019-09-25T17:11:22.645+0530 I ASIO     [ShardRegistry] Connecting to localhost:47017
+2019-09-25T17:12:29.897+0530 I COMMAND  [conn9] command school.students appName: "MongoDB Shell" command: shardCollection { shardCollection: "school.students", key: { student_id: 1.0 }, lsid: { id: UUID("659ad293-65be-4a29-bd9e-60f6c7287f91") }, $clusterTime: { clusterTime: Timestamp(1569411739, 2), signature: { hash: BinData(0, 0000000000000000000000000000000000000000), keyId: 0 } }, $db: "admin" } numYields:0 reslen:280 protocol:op_msg 106ms
+2019-09-25T17:14:23.819+0530 I SH_REFR  [ConfigServerCatalogCacheLoader-5] Refresh for collection config.system.sessions took 1 ms and found the collection is not sharded
+2019-09-25T17:14:23.824+0530 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Collection config.system.sessions is not sharded.
+2019-09-25T17:15:04.030+0530 I ASIO     [TaskExecutorPool-0] Dropping all pooled connections to localhost:57040 due to NetworkInterfaceExceededTimeLimit: Connection pool has been idle for longer than the host timeout
+2019-09-25T17:16:46.243+0530 I ASIO     [TaskExecutorPool-0] Dropping all pooled connections to localhost:37019 due to NetworkInterfaceExceededTimeLimit: Connection pool has been idle for longer than the host timeout
+2019-09-25T17:16:59.936+0530 I ASIO     [ShardRegistry] Dropping all pooled connections to localhost:27017 due to NetworkInterfaceExceededTimeLimit: Connection pool has been idle for longer than the host timeout
+2019-09-25T17:16:59.945+0530 I ASIO     [ShardRegistry] Dropping all pooled connections to localhost:37019 due to NetworkInterfaceExceededTimeLimit: Connection pool has been idle for longer than the host timeout
+2019-09-25T17:16:59.945+0530 I ASIO     [ShardRegistry] Dropping all pooled connections to localhost:47017 due to NetworkInterfaceExceededTimeLimit: Connection pool has been idle for longer than the host timeout
+2019-09-25T17:19:23.823+0530 I SH_REFR  [ConfigServerCatalogCacheLoader-6] Refresh for collection config.system.sessions took 0 ms and found the collection is not sharded
+2019-09-25T17:19:23.830+0530 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Collection config.system.sessions is not sharded.
+2019-09-25T17:20:06.522+0530 I NETWORK  [conn9] end connection 127.0.0.1:56588 (0 connections now open)
+2019-09-25T17:24:23.831+0530 I SH_REFR  [ConfigServerCatalogCacheLoader-7] Refresh for collection config.system.sessions took 0 ms and found the collection is not sharded
+2019-09-25T17:24:23.837+0530 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Collection config.system.sessions is not sharded.
+2019-09-25T17:25:52.026+0530 I ASIO     [ShardRegistry] Connecting to localhost:57040
+2019-09-25T17:26:52.063+0530 I ASIO     [ShardRegistry] Ending idle connection to host localhost:57040 because the pool meets constraints; 1 connections to that host remain open
+2019-09-25T17:26:53.928+0530 I ASIO     [ShardRegistry] Connecting to localhost:57040
+2019-09-25T17:27:53.945+0530 I ASIO     [ShardRegistry] Ending idle connection to host localhost:57040 because the pool meets constraints; 1 connections to that host remain open
+2019-09-25T17:28:14.828+0530 I CONTROL  [signalProcessingThread] got signal 15 (Terminated: 15), will terminate after current cmd ends
+2019-09-25T17:28:14.829+0530 I ASIO     [ShardRegistry] Killing all outstanding egress activity.
+2019-09-25T17:28:14.829+0530 I ASIO     [ShardRegistry] Dropping all pooled connections to localhost:57042 due to ShutdownInProgress: Shutting down the connection pool
+2019-09-25T17:28:14.829+0530 I ASIO     [ShardRegistry] Dropping all pooled connections to localhost:57041 due to ShutdownInProgress: Shutting down the connection pool
+2019-09-25T17:28:14.829+0530 I ASIO     [ShardRegistry] Dropping all pooled connections to localhost:57040 due to ShutdownInProgress: Shutting down the connection pool
+2019-09-25T17:28:14.831+0530 I ASIO     [TaskExecutorPool-0] Killing all outstanding egress activity.
+2019-09-25T17:28:14.831+0530 W SHARDING [signalProcessingThread] error encountered while cleaning up distributed ping entry for ShailendraMishra-anmepls-MacBook-Pro.local:21010:1569410661:7020705488602080152 :: caused by :: InterruptedAtShutdown: interrupted at shutdown
+2019-09-25T17:28:14.832+0530 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2019-09-25T17:28:14.833+0530 I CONTROL  [signalProcessingThread] shutting down with code:0

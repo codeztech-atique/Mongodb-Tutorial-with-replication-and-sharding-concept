@@ -1,0 +1,14 @@
+{
+    "mongodb": {
+      "url": "mongodb://",
+      "username":"",
+      "password":"",
+      "server_ip":"167.71.42.219",
+      "local_server_ip":"localhost",
+      "port":"27017",
+      "databaseName":"Userdata"
+    },
+    "port": 3500,
+    "secret": "supersecret",
+    "superSecret": "5ebe2294ecd0e0f08eab7690d2a6ee69"
+  }

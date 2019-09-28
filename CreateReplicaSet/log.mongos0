@@ -1,0 +1,28 @@
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] 
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] ** WARNING: Access control is not enabled for the database.
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] **          Read and write access to data and configuration is unrestricted.
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] 
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] ** WARNING: This server is bound to localhost.
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] **          Remote systems will be unable to connect to this server. 
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] **          Start the server with --bind_ip <address> to specify which IP 
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] **          addresses it should serve responses from, or with --bind_ip_all to
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] **          bind to all interfaces. If this behavior is desired, start the
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2019-09-25T16:44:45.713+0530 I CONTROL  [main] 
+2019-09-25T16:44:45.713+0530 I SHARDING [mongosMain] mongos version v4.0.3
+2019-09-25T16:44:45.713+0530 I CONTROL  [mongosMain] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+2019-09-25T16:44:45.713+0530 I CONTROL  [mongosMain] allocator: system
+2019-09-25T16:44:45.713+0530 I CONTROL  [mongosMain] modules: none
+2019-09-25T16:44:45.713+0530 I CONTROL  [mongosMain] build environment:
+2019-09-25T16:44:45.713+0530 I CONTROL  [mongosMain]     distarch: x86_64
+2019-09-25T16:44:45.713+0530 I CONTROL  [mongosMain]     target_arch: x86_64
+2019-09-25T16:44:45.714+0530 I CONTROL  [mongosMain] db version v4.0.3
+2019-09-25T16:44:45.714+0530 I CONTROL  [mongosMain] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+2019-09-25T16:44:45.714+0530 I CONTROL  [mongosMain] allocator: system
+2019-09-25T16:44:45.714+0530 I CONTROL  [mongosMain] modules: none
+2019-09-25T16:44:45.714+0530 I CONTROL  [mongosMain] build environment:
+2019-09-25T16:44:45.714+0530 I CONTROL  [mongosMain]     distarch: x86_64
+2019-09-25T16:44:45.714+0530 I CONTROL  [mongosMain]     target_arch: x86_64
+2019-09-25T16:44:45.714+0530 I CONTROL  [mongosMain] options: { sharding: { configDB: "conf/localhost:57040,localhost:57040,localhost:57040" }, systemLog: { destination: "file", logAppend: true, path: "log.mongos0" } }
+2019-09-25T16:44:45.718+0530 E SHARDING [mongosMain] Failed to set up listener: SocketException: Address already in use
+2019-09-25T16:44:45.718+0530 I CONTROL  [mongosMain] shutting down with code:48
